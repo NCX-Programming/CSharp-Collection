@@ -85,7 +85,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form4";
-            this.Text = "Form4";
+            this.ShowIcon = false;
+            this.Text = "About";
             this.ResumeLayout(false);
 
         }
