@@ -52,13 +52,14 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Red;
+            this.button1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.button1.Location = new System.Drawing.Point(528, 36);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
             this.button1.Text = "About";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
@@ -67,7 +68,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(28, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "v1.0";
+            this.label2.Text = "v1.1";
             // 
             // label3
             // 
@@ -81,12 +82,13 @@
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.SystemColors.ControlLight;
             this.button2.Location = new System.Drawing.Point(19, 164);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(192, 23);
             this.button2.TabIndex = 4;
             this.button2.Text = "Color Buttons";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
