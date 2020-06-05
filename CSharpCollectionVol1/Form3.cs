@@ -17,7 +17,30 @@ namespace CSharpCollectionVol1
         public int opr;
         public decimal ans;
         public int num1done;
-        
+
+        void doButton(int button) {
+            if (num1 == 0 && num1done == 0)
+            {
+                num1 = button;
+                label1.Text = "" + num1;
+            }
+            else if (num1 != 0 && num1done == 0)
+            {
+                num1 = (num1 * 10) + button;
+                label1.Text = "" + num1;
+            }
+            else if (num2 == 0 && num1done == 1)
+            {
+                num2 = button;
+                label1.Text = "" + num2;
+            }
+            else if (num2 != 0 && num1done == 1)
+            {
+                num2 = (num2 * 10) + button;
+                label1.Text = "" + num2;
+            }
+        }
+
         public Form3()
         {
             InitializeComponent();
@@ -25,26 +48,7 @@ namespace CSharpCollectionVol1
         // "1" Button
         private void button1_Click(object sender, EventArgs e)
         {
-            if (num1 == 0 && num1done == 0)
-            {
-                num1 = 1;
-                label1.Text = "" + num1;
-            }
-            else if (num1 != 0 && num1done == 0)
-            {
-                num1 = (num1 * 10) + 1;
-                label1.Text = "" + num1;
-            }
-            else if (num2 == 0 && num1done == 1)
-            {
-                num2 = 1;
-                label1.Text = "" + num2;
-            }
-            else if (num2 != 0 && num1done == 1)
-            {
-                num2 = (num2 * 10) + 1;
-                label1.Text = "" + num2;
-            }
+            doButton(1);
         }
         // "Menu" Button
         private void button16_Click(object sender, EventArgs e)
@@ -56,194 +60,42 @@ namespace CSharpCollectionVol1
         // "2" Button
         private void button2_Click(object sender, EventArgs e)
         {
-            if (num1 == 0 && num1done == 0)
-            {
-                num1 = 2;
-                label1.Text = "" + num1;
-            }
-            else if (num1 != 0 && num1done == 0)
-            {
-                num1 = (num1 * 10) + 2;
-                label1.Text = "" + num1;
-            }
-            else if (num2 == 0 && num1done == 1)
-            {
-                num2 = 2;
-                label1.Text = "" + num2;
-            }
-            else if (num2 != 0 && num1done == 1)
-            {
-                num2 = (num2 * 10) + 2;
-                label1.Text = "" + num2;
-            }
+            doButton(2);
         }
         // "3" Button
         private void button3_Click(object sender, EventArgs e)
         {
-            if (num1 == 0 && num1done == 0)
-            {
-                num1 = 3;
-                label1.Text = "" + num1;
-            }
-            else if (num1 != 0 && num1done == 0)
-            {
-                num1 = (num1 * 10) + 3;
-                label1.Text = "" + num1;
-            }
-            else if (num2 == 0 && num1done == 1)
-            {
-                num2 = 3;
-                label1.Text = "" + num2;
-            }
-            else if (num2 != 0 && num1done == 1)
-            {
-                num2 = (num2 * 10) + 3;
-                label1.Text = "" + num2;
-            }
+            doButton(3);
         }
         // "4" Button
         private void button4_Click(object sender, EventArgs e)
         {
-            if (num1 == 0 && num1done == 0)
-            {
-                num1 = 4;
-                label1.Text = "" + num1;
-            }
-            else if (num1 != 0 && num1done == 0)
-            {
-                num1 = (num1 * 10) + 4;
-                label1.Text = "" + num1;
-            }
-            else if (num2 == 0 && num1done == 1)
-            {
-                num2 = 4;
-                label1.Text = "" + num2;
-            }
-            else if (num2 != 0 && num1done == 1)
-            {
-                num2 = (num2 * 10) + 4;
-                label1.Text = "" + num2;
-            }
+            doButton(4);
         }
         // "5" Button
         private void button5_Click(object sender, EventArgs e)
         {
-            if (num1 == 0 && num1done == 0)
-            {
-                num1 = 5;
-                label1.Text = "" + num1;
-            }
-            else if (num1 != 0 && num1done == 0)
-            {
-                num1 = (num1 * 10) + 5;
-                label1.Text = "" + num1;
-            }
-            else if (num2 == 0 && num1done == 1)
-            {
-                num2 = 5;
-                label1.Text = "" + num2;
-            }
-            else if (num2 != 0 && num1done == 1)
-            {
-                num2 = (num2 * 10) + 5;
-                label1.Text = "" + num2;
-            }
+            doButton(5);
         }
         // "6" Button
         private void button6_Click(object sender, EventArgs e)
         {
-            if (num1 == 0 && num1done == 0)
-            {
-                num1 = 6;
-                label1.Text = "" + num1;
-            }
-            else if (num1 != 0 && num1done == 0)
-            {
-                num1 = (num1 * 10) + 6;
-                label1.Text = "" + num1;
-            }
-            else if (num2 == 0 && num1done == 1)
-            {
-                num2 = 6;
-                label1.Text = "" + num2;
-            }
-            else if (num2 != 0 && num1done == 1)
-            {
-                num2 = (num2 * 10) + 6;
-                label1.Text = "" + num2;
-            }
+            doButton(6);
         }
         // "7" Button
         private void button7_Click(object sender, EventArgs e)
         {
-            if (num1 == 0 && num1done == 0)
-            {
-                num1 = 7;
-                label1.Text = "" + num1;
-            }
-            else if (num1 != 0 && num1done == 0)
-            {
-                num1 = (num1 * 10) + 7;
-                label1.Text = "" + num1;
-            }
-            else if (num2 == 0 && num1done == 1)
-            {
-                num2 = 7;
-                label1.Text = "" + num2;
-            }
-            else if (num2 != 0 && num1done == 1)
-            {
-                num2 = (num2 * 10) + 7;
-                label1.Text = "" + num2;
-            }
+            doButton(7);
         }
         // "8" Button
         private void button8_Click(object sender, EventArgs e)
         {
-            if (num1 == 0 && num1done == 0)
-            {
-                num1 = 8;
-                label1.Text = "" + num1;
-            }
-            else if (num1 != 0 && num1done == 0)
-            {
-                num1 = (num1 * 10) + 8;
-                label1.Text = "" + num1;
-            }
-            else if (num2 == 0 && num1done == 1)
-            {
-                num2 = 8;
-                label1.Text = "" + num2;
-            }
-            else if (num2 != 0 && num1done == 1)
-            {
-                num2 = (num2 * 10) + 8;
-                label1.Text = "" + num2;
-            }
+            doButton(8);
         }
         // "9" Button
         private void button9_Click(object sender, EventArgs e)
         {
-            if (num1 == 0 && num1done == 0)
-            {
-                num1 = 9;
-                label1.Text = "" + num1;
-            }
-            else if (num1 != 0 && num1done == 0)
-            {
-                num1 = (num1 * 10) + 9;
-                label1.Text = "" + num1;
-            }
-            else if (num2 == 0 && num1done == 1)
-            {
-                num2 = 9;
-                label1.Text = "" + num2;
-            }
-            else if (num2 != 0 && num1done == 1)
-            {
-                num2 = (num2 * 10) + 9;
-                label1.Text = "" + num2;
-            }
+            doButton(9);
         }
         // "+" Button
         private void button12_Click(object sender, EventArgs e)
