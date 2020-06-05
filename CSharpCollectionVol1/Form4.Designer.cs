@@ -51,8 +51,8 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(288, 99);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Version 1.2\r\nPowered by the .NET Framework 4.7.2\r\nWritten in Visual Studio 2019\r\n" +
-    "\r\nMade by NinjaCheetah";
+            this.label2.Text = "Version 1.3.1\r\nPowered by the .NET Framework 4.7.2\r\nWritten in Visual Studio 2019" +
+    "\r\n\r\nMade by NinjaCheetah";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
