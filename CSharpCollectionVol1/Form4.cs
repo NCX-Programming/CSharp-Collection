@@ -26,5 +26,10 @@ namespace CSharpCollectionVol1
         {
             System.Diagnostics.Process.Start("https://github.com/NinjaCheetah/CSharp-Collection-Vol1");
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
