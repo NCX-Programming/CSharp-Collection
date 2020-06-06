@@ -68,7 +68,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(28, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "v1.2";
+            this.label2.Text = "v1.3";
             // 
             // label3
             // 
@@ -104,13 +104,14 @@
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.Red;
+            this.button4.BackColor = System.Drawing.SystemColors.ControlLight;
             this.button4.Location = new System.Drawing.Point(19, 222);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(192, 23);
             this.button4.TabIndex = 6;
-            this.button4.Text = "Coming Soon";
+            this.button4.Text = "Tic Tac No";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
