@@ -68,7 +68,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(28, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "v1.3";
+            this.label2.Text = "v2.0";
             // 
             // label3
             // 
@@ -115,13 +115,14 @@
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.Color.Red;
+            this.button5.BackColor = System.Drawing.SystemColors.ControlLight;
             this.button5.Location = new System.Drawing.Point(19, 251);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(192, 23);
             this.button5.TabIndex = 7;
-            this.button5.Text = "Coming Soon";
+            this.button5.Text = "C#Notes";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 

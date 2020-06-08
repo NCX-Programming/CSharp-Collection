@@ -53,5 +53,12 @@ namespace CSharpCollectionVol1
             f.Visible = true;
             Visible = false;
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form6 f = new Form6();
+            f.Visible = true;
+            Visible = false;
+        }
     }
 }
