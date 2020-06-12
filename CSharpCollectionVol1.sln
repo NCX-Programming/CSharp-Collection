@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCollectionVol1", "CSharpCollectionVol1\CSharpCollectionVol1.csproj", "{186A2029-40CB-44B4-93EB-F119C0006ABB}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CSharpCollectionVol1 Setup", "CSharpCollectionVol1 Setup\CSharpCollectionVol1 Setup.vdproj", "{613FA552-02D2-4E85-8649-CDA061D00F26}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CSharpCollection Setup", "CSharpCollection Setup\CSharpCollection Setup.vdproj", "{646C8A50-7E9E-4F96-AA1F-296A1273D142}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +17,8 @@ Global
 		{186A2029-40CB-44B4-93EB-F119C0006ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{186A2029-40CB-44B4-93EB-F119C0006ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{186A2029-40CB-44B4-93EB-F119C0006ABB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{613FA552-02D2-4E85-8649-CDA061D00F26}.Debug|Any CPU.ActiveCfg = Debug
-		{613FA552-02D2-4E85-8649-CDA061D00F26}.Release|Any CPU.ActiveCfg = Release
+		{646C8A50-7E9E-4F96-AA1F-296A1273D142}.Debug|Any CPU.ActiveCfg = Debug
+		{646C8A50-7E9E-4F96-AA1F-296A1273D142}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

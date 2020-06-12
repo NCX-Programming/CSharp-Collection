@@ -34,7 +34,7 @@ namespace CSharpCollectionVol1
             Visible = false;
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button3_Click_1(object sender, EventArgs e)
         {
             Form3 f = new Form3();
             f.Visible = true;
