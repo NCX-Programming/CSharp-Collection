@@ -38,6 +38,11 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -68,7 +73,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(28, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "v2.0";
+            this.label2.Text = "v2.2";
             // 
             // label3
             // 
@@ -104,13 +109,14 @@
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.Color.Red;
+            this.button6.BackColor = System.Drawing.SystemColors.ControlLight;
             this.button6.Location = new System.Drawing.Point(19, 280);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(192, 23);
             this.button6.TabIndex = 8;
-            this.button6.Text = "Coming Soon";
+            this.button6.Text = "C#Search";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -142,11 +148,66 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
+            // button8
+            // 
+            this.button8.BackColor = System.Drawing.Color.Red;
+            this.button8.Location = new System.Drawing.Point(217, 164);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(192, 23);
+            this.button8.TabIndex = 14;
+            this.button8.Text = "Coming Soon";
+            this.button8.UseVisualStyleBackColor = false;
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.Red;
+            this.button9.Location = new System.Drawing.Point(217, 193);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(192, 23);
+            this.button9.TabIndex = 15;
+            this.button9.Text = "Coming Soon";
+            this.button9.UseVisualStyleBackColor = false;
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.Red;
+            this.button10.Location = new System.Drawing.Point(217, 222);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(192, 23);
+            this.button10.TabIndex = 16;
+            this.button10.Text = "Coming Soon";
+            this.button10.UseVisualStyleBackColor = false;
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.Red;
+            this.button11.Location = new System.Drawing.Point(217, 251);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(192, 23);
+            this.button11.TabIndex = 17;
+            this.button11.Text = "Coming Soon";
+            this.button11.UseVisualStyleBackColor = false;
+            // 
+            // button12
+            // 
+            this.button12.BackColor = System.Drawing.Color.Red;
+            this.button12.Location = new System.Drawing.Point(217, 280);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(192, 23);
+            this.button12.TabIndex = 18;
+            this.button12.Text = "Coming Soon";
+            this.button12.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(615, 332);
+            this.Controls.Add(this.button12);
+            this.Controls.Add(this.button11);
+            this.Controls.Add(this.button10);
+            this.Controls.Add(this.button9);
+            this.Controls.Add(this.button8);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button7);
@@ -178,6 +239,11 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button12;
     }
 }
 
