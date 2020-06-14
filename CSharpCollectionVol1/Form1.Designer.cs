@@ -71,9 +71,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(575, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(28, 13);
+            this.label2.Size = new System.Drawing.Size(43, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "v2.2";
+            this.label2.Text = "v2.3b-1";
             // 
             // label3
             // 
@@ -151,7 +151,7 @@
             // button8
             // 
             this.button8.BackColor = System.Drawing.Color.Red;
-            this.button8.Location = new System.Drawing.Point(217, 164);
+            this.button8.Location = new System.Drawing.Point(218, 164);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(192, 23);
             this.button8.TabIndex = 14;

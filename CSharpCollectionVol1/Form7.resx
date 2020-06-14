@@ -757,4 +757,8 @@
         ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//9k=
 </value>
   </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>How to Use: Type your search in the bar. C#Search now supports spaces, so search like you would in a web browser! (Ex. "cute cats"). Make sure there are no duplicate spaces. Report search term problems to the GitHub Issues page.
+</value>
+  </data>
 </root>
