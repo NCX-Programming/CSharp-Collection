@@ -33,6 +33,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_D96484A4233B414CAC90AB6E0B0D9155"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_50FC1ACC91CF4547B5ACF6D30F275C56"
         "MsmSig" = "8:_UNDEFINED"
@@ -206,6 +212,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D96484A4233B414CAC90AB6E0B0D9155"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\windowsiconcsharpcollection_png_QsC_icon.ico"
+            "TargetName" = "8:windowsiconcsharpcollection_png_QsC_icon.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_EC5ABCE4BB9248A382D89B4B7B27249B"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
@@ -262,15 +288,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:CSharpCollection Setup"
-        "ProductCode" = "8:{E5C6A71F-D4A1-45B9-A6E4-832EE82DC4DD}"
-        "PackageCode" = "8:{B64C084A-2762-43E1-B0E2-E4AEFD01F740}"
+        "ProductCode" = "8:{C59C1984-FAED-45F9-A8B4-4E2BFB85B2C2}"
+        "PackageCode" = "8:{C0C66B44-3DDB-4240-B521-41C7700049F2}"
         "UpgradeCode" = "8:{227FDEEA-68C7-4BFA-A7F7-CDEDDAC33060}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:2.3.0"
+        "ProductVersion" = "8:2.4.2"
         "Manufacturer" = "8:NinjaCheetah"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -394,7 +420,7 @@
             "Target" = "8:_50FC1ACC91CF4547B5ACF6D30F275C56"
             "Folder" = "8:_175FAA6B2D7A4E7DB6DA24A6E24DA1F2"
             "WorkingFolder" = "8:_EC5ABCE4BB9248A382D89B4B7B27249B"
-            "Icon" = "8:"
+            "Icon" = "8:_D96484A4233B414CAC90AB6E0B0D9155"
             "Feature" = "8:"
             }
         }
