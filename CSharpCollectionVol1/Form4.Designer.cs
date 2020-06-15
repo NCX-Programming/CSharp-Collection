@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -51,7 +52,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(288, 99);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Version 2.3\r\nPowered by the .NET Framework 4.7.2\r\nWritten in Visual Studio 2019\r\n" +
+            this.label2.Text = "Version 2.4\r\nPowered by the .NET Framework 4.7.2\r\nWritten in Visual Studio 2019\r\n" +
     "\r\nMade by NinjaCheetah";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -85,8 +86,8 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form4";
-            this.ShowIcon = false;
             this.Text = "About";
             this.ResumeLayout(false);
 
