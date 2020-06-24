@@ -89,5 +89,9 @@ namespace CSharpCollectionVol1
             label1.BackColor = Color.Transparent;
             label1.Text = "White";
         }
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

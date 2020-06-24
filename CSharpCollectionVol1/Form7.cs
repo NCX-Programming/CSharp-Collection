@@ -75,5 +75,9 @@ namespace CSharpCollectionVol1
         {
             engine = (string)comboBox1.SelectedItem;
         }
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

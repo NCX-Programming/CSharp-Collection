@@ -242,5 +242,9 @@ namespace CSharpCollectionVol1
                 }
             }
         }
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

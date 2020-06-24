@@ -127,5 +127,9 @@ namespace CSharpCollectionVol1
         {
             save = (string)comboBox1.SelectedItem;
         }
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

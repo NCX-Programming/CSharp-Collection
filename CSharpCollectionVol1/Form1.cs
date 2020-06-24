@@ -67,5 +67,9 @@ namespace CSharpCollectionVol1
             f.Visible = true;
             Visible = false;
         }
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -166,5 +166,9 @@ namespace CSharpCollectionVol1
                 label1.Text = "" + num2;
             }
         }
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
