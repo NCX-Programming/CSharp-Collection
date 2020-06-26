@@ -28,11 +28,13 @@ namespace CSharpCollectionVol1
             if (player == 1)
             {
                 label1.Text = "X";
+                label11.Text = "O";
                 player = 2;
             }
             else if (player == 2)
             {
                 label1.Text = "O";
+                label11.Text = "X";
                 player = 1;
             }
         }
@@ -43,11 +45,13 @@ namespace CSharpCollectionVol1
             if (player == 1)
             {
                 label2.Text = "X";
+                label11.Text = "O";
                 player = 2;
             }
             else if (player == 2)
             {
                 label2.Text = "O";
+                label11.Text = "X";
                 player = 1;
             }
         }
@@ -58,11 +62,13 @@ namespace CSharpCollectionVol1
             if (player == 1)
             {
                 label3.Text = "X";
+                label11.Text = "O";
                 player = 2;
             }
             else if (player == 2)
             {
                 label3.Text = "O";
+                label11.Text = "X";
                 player = 1;
             }
         }
@@ -73,11 +79,13 @@ namespace CSharpCollectionVol1
             if (player == 1)
             {
                 label4.Text = "X";
+                label11.Text = "O";
                 player = 2;
             }
             else if (player == 2)
             {
                 label4.Text = "O";
+                label11.Text = "X";
                 player = 1;
             }
         }
@@ -88,11 +96,13 @@ namespace CSharpCollectionVol1
             if (player == 1)
             {
                 label5.Text = "X";
+                label11.Text = "O";
                 player = 2;
             }
             else if (player == 2)
             {
                 label5.Text = "O";
+                label11.Text = "X";
                 player = 1;
             }
         }
@@ -103,11 +113,13 @@ namespace CSharpCollectionVol1
             if (player == 1)
             {
                 label6.Text = "X";
+                label11.Text = "O";
                 player = 2;
             }
             else if (player == 2)
             {
                 label6.Text = "O";
+                label11.Text = "X";
                 player = 1;
             }
         }
@@ -118,11 +130,13 @@ namespace CSharpCollectionVol1
             if (player == 1)
             {
                 label7.Text = "X";
+                label11.Text = "O";
                 player = 2;
             }
             else if (player == 2)
             {
                 label7.Text = "O";
+                label11.Text = "X";
                 player = 1;
             }
         }
@@ -133,11 +147,13 @@ namespace CSharpCollectionVol1
             if (player == 1)
             {
                 label8.Text = "X";
+                label11.Text = "O";
                 player = 2;
             }
             else if (player == 2)
             {
                 label8.Text = "O";
+                label11.Text = "X";
                 player = 1;
             }
         }
@@ -148,11 +164,13 @@ namespace CSharpCollectionVol1
             if (player == 1)
             {
                 label9.Text = "X";
+                label11.Text = "O";
                 player = 2;
             }
             else if (player == 2)
             {
                 label9.Text = "O";
+                label11.Text = "X";
                 player = 1;
             }
         }
@@ -179,6 +197,7 @@ namespace CSharpCollectionVol1
             xwins = 0;
             owins = 0;
             label10.Text = "X " + xwins + " - " + owins + " O";
+            label11.Text = "X";
         }
 
         private void button12_Click(object sender, EventArgs e)
@@ -216,6 +235,7 @@ namespace CSharpCollectionVol1
                     xwins = 0;
                     owins = 0;
                     label10.Text = "X " + xwins + " - " + owins + " O";
+                    label11.Text = "X";
                 }
             }
             else if (xwins > owins)
@@ -239,12 +259,77 @@ namespace CSharpCollectionVol1
                     xwins = 0;
                     owins = 0;
                     label10.Text = "X " + xwins + " - " + owins + " O";
+                    label11.Text = "X";
+                }
+            }
+            else if (xwins == owins)
+            {
+                string message = "It's a tie!";
+                string title = "Game Over!";
+                MessageBoxButtons buttons = MessageBoxButtons.OK;
+                DialogResult result = MessageBox.Show(message, title, buttons);
+                if (result == DialogResult.OK)
+                {
+                    player = 1;
+                    button1.Visible = true;
+                    button2.Visible = true;
+                    button3.Visible = true;
+                    button4.Visible = true;
+                    button5.Visible = true;
+                    button6.Visible = true;
+                    button7.Visible = true;
+                    button8.Visible = true;
+                    button9.Visible = true;
+                    xwins = 0;
+                    owins = 0;
+                    label10.Text = "X " + xwins + " - " + owins + " O";
+                    label11.Text = "X";
+                }
+            }
+            else if (xwins == owins)
+            {
+                string message = "It's a tie!";
+                string title = "Game Over!";
+                MessageBoxButtons buttons = MessageBoxButtons.OK;
+                DialogResult result = MessageBox.Show(message, title, buttons);
+                if (result == DialogResult.OK)
+                {
+                    player = 1;
+                    button1.Visible = true;
+                    button2.Visible = true;
+                    button3.Visible = true;
+                    button4.Visible = true;
+                    button5.Visible = true;
+                    button6.Visible = true;
+                    button7.Visible = true;
+                    button8.Visible = true;
+                    button9.Visible = true;
+                    xwins = 0;
+                    owins = 0;
+                    label10.Text = "X " + xwins + " - " + owins + " O";
+                    label11.Text = "X";
                 }
             }
         }
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            player = 1;
+            button1.Visible = true;
+            button2.Visible = true;
+            button3.Visible = true;
+            button4.Visible = true;
+            button5.Visible = true;
+            button6.Visible = true;
+            button7.Visible = true;
+            button8.Visible = true;
+            button9.Visible = true;
+            label10.Text = "X " + xwins + " - " + owins + " O";
+            label11.Text = "X";
         }
     }
 }
