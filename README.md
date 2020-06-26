@@ -10,4 +10,4 @@ This is the follow up project for The Visual Basic Collection Vol1, this time re
 Info also available on my website at: https://ninjacheetah-gaming.site/techprojects/csharpcollection
 ## What's required?
 - The target .NET framework version is currently 4.7.2
-- Windows 10
+- Windows 10 x64 (64-Bit)
