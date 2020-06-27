@@ -247,6 +247,17 @@
             "Property" = "8:ProgramMenuFolder"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_D477F2B356C6474A92E78FD12487C942"
+                    {
+                    "Name" = "8:NinjaCheetah"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_8C100FD47A844838A25752D45392BFA7"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
             "{1525181F-901A-416C-8A58-119130FE478E}:_3F3057A889FE44CBB9F2CAA6D68621D6"
@@ -287,16 +298,16 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:CSharpCollection"
-        "ProductCode" = "8:{3523C7B1-5B7D-4AD2-87A5-B6965AA88046}"
-        "PackageCode" = "8:{0AB680F2-1A84-45D9-BB70-E85B78DA9679}"
+        "ProductName" = "8:CSharp Collection"
+        "ProductCode" = "8:{BA93AE09-C3E6-4787-ACFC-6C98F16B4B4E}"
+        "PackageCode" = "8:{0C33D296-E8B7-4762-984A-A026FDAF6848}"
         "UpgradeCode" = "8:{227FDEEA-68C7-4BFA-A7F7-CDEDDAC33060}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:2.5.0"
+        "ProductVersion" = "8:2.6.0"
         "Manufacturer" = "8:NCX"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -418,7 +429,7 @@
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
             "Target" = "8:_50FC1ACC91CF4547B5ACF6D30F275C56"
-            "Folder" = "8:_175FAA6B2D7A4E7DB6DA24A6E24DA1F2"
+            "Folder" = "8:_D477F2B356C6474A92E78FD12487C942"
             "WorkingFolder" = "8:_EC5ABCE4BB9248A382D89B4B7B27249B"
             "Icon" = "8:_1C8E7364BC474C3284ADAD0BCD9859D7"
             "Feature" = "8:"
