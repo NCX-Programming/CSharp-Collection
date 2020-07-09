@@ -97,6 +97,7 @@
             "Bing",
             "DuckDuckGo",
             "AOL",
+            "Yahoo",
             "All"});
             this.comboBox1.Location = new System.Drawing.Point(691, 241);
             this.comboBox1.Name = "comboBox1";

@@ -56,6 +56,12 @@ namespace CSharpCollectionVol1
                     link = "https://search.aol.com/aol/search?q=" + SearchTerms;
                     System.Diagnostics.Process.Start(link);
                     break;
+                case "Yahoo":
+                    SearchTerms = textBox1.Text;
+                    SearchTerms = SearchTerms.Replace(" ", "+");
+                    link = "https://search.yahoo.com/search?p=" + SearchTerms;
+                    System.Diagnostics.Process.Start(link);
+                    break;
                 case "All":
                     SearchTerms = textBox1.Text;
                     SearchTerms = SearchTerms.Replace(" ", "+");
@@ -66,6 +72,8 @@ namespace CSharpCollectionVol1
                     link = "https://www.bing.com/search?q=" + SearchTerms;
                     System.Diagnostics.Process.Start(link);
                     link = "https://www.google.com/search?client=firefox-b-1-d&q=" + SearchTerms;
+                    System.Diagnostics.Process.Start(link);
+                    link = "https://search.yahoo.com/search?p=" + SearchTerms;
                     System.Diagnostics.Process.Start(link);
                     break;
             }
