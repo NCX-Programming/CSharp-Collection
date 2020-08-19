@@ -23,10 +23,12 @@ Stats
 	</a>	
 <a href="https://img.shields.io/github/v/release/NinjaCheetah/CSharp-Collection?label=Latest%20Release" style="padding-left: 5px; padding-right: 5px;">
 		<img src="https://img.shields.io/github/v/release/NinjaCheetah/CSharp-Collection?label=Latest%20Release" height="20">
+	</a>	
+<a href="https://img.shields.io/maintenance/yes/2020?label=Maintained" style="padding-left: 5px; padding-right: 5px;">
+		<img src="https://img.shields.io/maintenance/yes/2020?label=Maintained" height="20">
 </p>	
 
 
-![Maintenance](https://img.shields.io/maintenance/yes/2020?label=Maintained)
 ## This is the follow up project for The Visual Basic Collection Vol1, this time rewritten in C#. It's a collection of smaller programs and games combined into a larger program.
 ## So, what's included?
 - Color Buttons
