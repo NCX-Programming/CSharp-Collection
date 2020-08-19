@@ -1,7 +1,6 @@
 <p align="center">
 <img src="https://ninjacheetah-gaming.site/WindowsIconCSharpCollection.png.png"/>
 <h1>CSharp-Collection</h1>
-# CSharp-Collection
 
  For more info visit:	
 <p align="center">
