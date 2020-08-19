@@ -14,8 +14,8 @@
         <Label Content="v2.7" HorizontalAlignment="Left" Margin="562,0,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18"/>
         <Button x:Name="btn1" Content="Color Buttons" HorizontalAlignment="Left" Margin="10,174,0,0" VerticalAlignment="Top" Height="22" Width="192" Foreground="White" Background="Black" Click="btn1_Click"/>
         <Button x:Name="btn2" Content="C#Calc" HorizontalAlignment="Left" Margin="10,201,0,0" VerticalAlignment="Top" Height="22" Width="192" Foreground="White" Background="Black" Click="btn2_Click"/>
-        <Button x:Name="btn3" Content="Tic Tac No" HorizontalAlignment="Left" Margin="10,228,0,0" VerticalAlignment="Top" Height="22" Width="192" Foreground="White" Background="Black"/>
-        <Button x:Name="btn4" Content="C#Notes" HorizontalAlignment="Left" Margin="10,255,0,0" VerticalAlignment="Top" Height="22" Width="192" Foreground="White" Background="Black"/>
+        <Button x:Name="btn3" Content="Tic Tac No" HorizontalAlignment="Left" Margin="10,228,0,0" VerticalAlignment="Top" Height="22" Width="192" Foreground="White" Background="Black" Click="btn3_Click"/>
+        <Button x:Name="btn4" Content="C#Notes" HorizontalAlignment="Left" Margin="10,255,0,0" VerticalAlignment="Top" Height="22" Width="192" Foreground="White" Background="Black" Click="btn4_Click"/>
         <Button x:Name="btn5" Content="C#Search" HorizontalAlignment="Left" Margin="10,282,0,0" VerticalAlignment="Top" Height="22" Width="192" Foreground="White" Background="Black"/>
         <Button x:Name="btn6" Content="Coming Soon" HorizontalAlignment="Left" Margin="207,174,0,0" VerticalAlignment="Top" Height="22" Width="192" Foreground="White" Background="Red"/>
         <Button x:Name="btn7" Content="Coming Soon" HorizontalAlignment="Left" Margin="207,201,0,0" VerticalAlignment="Top" Height="22" Width="192" Foreground="White" Background="Red"/>

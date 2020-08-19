@@ -1,0 +1,33 @@
+﻿<Page x:Class="CSharpCollection.TicTacNo"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CSharpCollection"
+      mc:Ignorable="d" 
+      d:DesignHeight="370" d:DesignWidth="630"
+      Title="Tic Tac No" Background="Black">
+
+    <Grid>
+        <TextBlock x:Name="label1" Text="Label" HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Foreground="White" TextAlignment="Center"/>
+        <TextBlock x:Name="label2" Text="Label" HorizontalAlignment="Left" Height="100" Margin="115,10,0,0" VerticalAlignment="Top" Width="100" Foreground="White" TextAlignment="Center"/>
+        <TextBlock x:Name="label3" Text="Label" HorizontalAlignment="Left" Height="100" Margin="220,10,0,0" VerticalAlignment="Top" Width="100" Foreground="White" TextAlignment="Center"/>
+        <TextBlock x:Name="label4" Text="Label" HorizontalAlignment="Left" Height="98" Margin="10,117,0,0" VerticalAlignment="Top" Width="100" Foreground="White" TextAlignment="Center"/>
+        <TextBlock x:Name="label5" Text="Label" HorizontalAlignment="Left" Height="98" Margin="115,117,0,0" VerticalAlignment="Top" Width="100" Foreground="White" TextAlignment="Center"/>
+        <TextBlock x:Name="label6" Text="Label" HorizontalAlignment="Left" Height="98" Margin="220,117,0,0" VerticalAlignment="Top" Width="100" Foreground="White" TextAlignment="Center"/>
+        <TextBlock x:Name="label7" Text="Label" HorizontalAlignment="Left" Height="100" Margin="10,220,0,0" VerticalAlignment="Top" Width="100" Foreground="White" TextAlignment="Center"/>
+        <TextBlock x:Name="label8" Text="Label" HorizontalAlignment="Left" Height="100" Margin="115,220,0,0" VerticalAlignment="Top" Width="100" Foreground="White" TextAlignment="Center"/>
+        <TextBlock x:Name="label9" Text="Label" HorizontalAlignment="Left" Height="100" Margin="220,220,0,0" VerticalAlignment="Top" Width="100" Foreground="White" TextAlignment="Center"/>
+
+        <Button x:Name="btn1" Content="Button" HorizontalAlignment="Left" Height="100" Width="100" Margin="10,10,0,0" VerticalAlignment="Top" Background="Black" Foreground="White" Click="btn1_Click"/>
+        <Button x:Name="btn2" Content="Button" HorizontalAlignment="Left" Height="100" Width="100" Margin="115,10,0,0" VerticalAlignment="Top" Background="Black" Foreground="White"/>
+        <Button x:Name="btn3" Content="Button" HorizontalAlignment="Left" Height="100" Width="100" Margin="220,10,0,0" VerticalAlignment="Top" Background="Black" Foreground="White"/>
+        <Button x:Name="btn4" Content="Button" HorizontalAlignment="Left" Height="100" Width="100" Margin="10,115,0,0" VerticalAlignment="Top" Background="Black" Foreground="White"/>
+        <Button x:Name="btn5" Content="Button" HorizontalAlignment="Left" Height="100" Width="100" Margin="115,115,0,0" VerticalAlignment="Top" Background="Black" Foreground="White"/>
+        <Button x:Name="btn6" Content="Button" HorizontalAlignment="Left" Height="100" Width="100" Margin="220,115,0,0" VerticalAlignment="Top" Background="Black" Foreground="White"/>
+        <Button x:Name="btn7" Content="Button" HorizontalAlignment="Left" Height="100" Width="100" Margin="10,220,0,0" VerticalAlignment="Top" Background="Black" Foreground="White"/>
+        <Button x:Name="btn8" Content="Button" HorizontalAlignment="Left" Height="100" Width="100" Margin="115,220,0,0" VerticalAlignment="Top" Background="Black" Foreground="White"/>
+        <Button x:Name="btn9" Content="Button" HorizontalAlignment="Left" Height="100" Width="100" Margin="220,220,0,0" VerticalAlignment="Top" Background="Black" Foreground="White"/>
+
+    </Grid>
+</Page>

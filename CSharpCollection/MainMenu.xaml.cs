@@ -40,5 +40,23 @@ namespace CSharpCollection
             CSharpCalc page = new CSharpCalc();
             NavigationService.Navigate(page);
         }
+
+        private void btn3_Click(object sender, RoutedEventArgs e)
+        {
+            string message = "Due to some differences between WinForms and WPF, Tic Tac No is going to take more work to get working. Stay tuned, because it will return!";
+            string caption = "Coming (back) soon!";
+            MessageBoxButton buttons = MessageBoxButton.OK;
+            MessageBoxImage icon = MessageBoxImage.Information;
+            if (MessageBox.Show(message, caption, buttons, icon) == MessageBoxResult.OK)
+            {
+                
+            }
+        }
+
+        private void btn4_Click(object sender, RoutedEventArgs e)
+        {
+            CSharpNotes page = new CSharpNotes();
+            NavigationService.Navigate(page);
+        }
     }
 }
