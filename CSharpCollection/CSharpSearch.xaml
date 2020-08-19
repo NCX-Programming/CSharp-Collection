@@ -1,0 +1,26 @@
+﻿<Page x:Class="CSharpCollection.CSharpSearch"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CSharpCollection"
+      mc:Ignorable="d" 
+      d:DesignHeight="370" d:DesignWidth="630"
+      Title="Main Menu" Background="Black">
+
+    <Grid>
+
+        <TextBox x:Name="textBox1" HorizontalAlignment="Center" Margin="0,86,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="610" Height="40" Background="Black" Foreground="White" FontSize="26" Grid.Column="1"/>
+        <Label Content="C#Search" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Foreground="White" Height="76" Width="214" FontSize="48"/>
+        <RadioButton x:Name="radioBtn1" Content="All" HorizontalAlignment="Left" Margin="10,131,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <RadioButton x:Name="radioBtn2" Content="Google" HorizontalAlignment="Left" Margin="10,151,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <RadioButton x:Name="radioBtn3" Content="Bing" HorizontalAlignment="Left" Margin="10,171,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <RadioButton x:Name="radioBtn4" Content="Yahoo" HorizontalAlignment="Left" Margin="10,191,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <RadioButton x:Name="radioBtn5" Content="AOL" HorizontalAlignment="Left" Margin="10,211,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <RadioButton x:Name="radioBtn6" Content="DuckDuckGo" HorizontalAlignment="Left" Margin="10,231,0,0" VerticalAlignment="Top" Foreground="White"/>
+        <Button Content="Search" HorizontalAlignment="Left" Margin="513,134,0,0" VerticalAlignment="Top" Height="40" Width="89" Foreground="White" Background="Black" FontSize="16" Click="Button_Click_1"/>
+        <TextBlock HorizontalAlignment="Left" Height="150" Margin="103,138,0,0" Text="C#Search is the most complex and convoluted way to get your questions answered! Just type your question, select a search engine on the left, and then press &quot;Search&quot;. Tip: Feeling indecisive? Just select &quot;All&quot; and see how the results differ between each search engine." TextWrapping="Wrap" VerticalAlignment="Top" Width="405" Foreground="White" FontSize="18"/>
+        <Button Content="Menu" HorizontalAlignment="Left" Margin="513,178,0,0" VerticalAlignment="Top" Height="48" Width="89" Background="Black" Foreground="White" FontSize="16" Click="Button_Click"/>
+
+    </Grid>
+</Page>

@@ -9,25 +9,25 @@
       Title="Tic Tac No" Background="Black">
 
     <Grid>
-        <TextBlock x:Name="label1" Text="Label" HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Foreground="White" TextAlignment="Center"/>
-        <TextBlock x:Name="label2" Text="Label" HorizontalAlignment="Left" Height="100" Margin="115,10,0,0" VerticalAlignment="Top" Width="100" Foreground="White" TextAlignment="Center"/>
-        <TextBlock x:Name="label3" Text="Label" HorizontalAlignment="Left" Height="100" Margin="220,10,0,0" VerticalAlignment="Top" Width="100" Foreground="White" TextAlignment="Center"/>
-        <TextBlock x:Name="label4" Text="Label" HorizontalAlignment="Left" Height="98" Margin="10,117,0,0" VerticalAlignment="Top" Width="100" Foreground="White" TextAlignment="Center"/>
-        <TextBlock x:Name="label5" Text="Label" HorizontalAlignment="Left" Height="98" Margin="115,117,0,0" VerticalAlignment="Top" Width="100" Foreground="White" TextAlignment="Center"/>
-        <TextBlock x:Name="label6" Text="Label" HorizontalAlignment="Left" Height="98" Margin="220,117,0,0" VerticalAlignment="Top" Width="100" Foreground="White" TextAlignment="Center"/>
-        <TextBlock x:Name="label7" Text="Label" HorizontalAlignment="Left" Height="100" Margin="10,220,0,0" VerticalAlignment="Top" Width="100" Foreground="White" TextAlignment="Center"/>
-        <TextBlock x:Name="label8" Text="Label" HorizontalAlignment="Left" Height="100" Margin="115,220,0,0" VerticalAlignment="Top" Width="100" Foreground="White" TextAlignment="Center"/>
-        <TextBlock x:Name="label9" Text="Label" HorizontalAlignment="Left" Height="100" Margin="220,220,0,0" VerticalAlignment="Top" Width="100" Foreground="White" TextAlignment="Center"/>
+        <TextBlock x:Name="label1" Text="" HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Foreground="White" TextAlignment="Center" FontSize="68"/>
+        <TextBlock x:Name="label2" Text="" HorizontalAlignment="Left" Height="100" Margin="115,10,0,0" VerticalAlignment="Top" Width="100" Foreground="White" TextAlignment="Center" FontSize="68"/>
+        <TextBlock x:Name="label3" Text="" HorizontalAlignment="Left" Height="100" Margin="220,10,0,0" VerticalAlignment="Top" Width="100" Foreground="White" TextAlignment="Center" FontSize="68"/>
+        <TextBlock x:Name="label4" Text="" HorizontalAlignment="Left" Height="98" Margin="10,117,0,0" VerticalAlignment="Top" Width="100" Foreground="White" TextAlignment="Center" FontSize="68"/>
+        <TextBlock x:Name="label5" Text="" HorizontalAlignment="Left" Height="98" Margin="115,117,0,0" VerticalAlignment="Top" Width="100" Foreground="White" TextAlignment="Center" FontSize="68"/>
+        <TextBlock x:Name="label6" Text="" HorizontalAlignment="Left" Height="98" Margin="220,117,0,0" VerticalAlignment="Top" Width="100" Foreground="White" TextAlignment="Center" FontSize="68"/>
+        <TextBlock x:Name="label7" Text="" HorizontalAlignment="Left" Height="100" Margin="10,220,0,0" VerticalAlignment="Top" Width="100" Foreground="White" TextAlignment="Center" FontSize="68"/>
+        <TextBlock x:Name="label8" Text="" HorizontalAlignment="Left" Height="100" Margin="115,220,0,0" VerticalAlignment="Top" Width="100" Foreground="White" TextAlignment="Center" FontSize="68"/>
+        <TextBlock x:Name="label9" Text="" HorizontalAlignment="Left" Height="100" Margin="220,220,0,0" VerticalAlignment="Top" Width="100" Foreground="White" TextAlignment="Center" FontSize="68"/>
 
-        <Button x:Name="btn1" Content="Button" HorizontalAlignment="Left" Height="100" Width="100" Margin="10,10,0,0" VerticalAlignment="Top" Background="Black" Foreground="White" Click="btn1_Click"/>
-        <Button x:Name="btn2" Content="Button" HorizontalAlignment="Left" Height="100" Width="100" Margin="115,10,0,0" VerticalAlignment="Top" Background="Black" Foreground="White"/>
-        <Button x:Name="btn3" Content="Button" HorizontalAlignment="Left" Height="100" Width="100" Margin="220,10,0,0" VerticalAlignment="Top" Background="Black" Foreground="White"/>
-        <Button x:Name="btn4" Content="Button" HorizontalAlignment="Left" Height="100" Width="100" Margin="10,115,0,0" VerticalAlignment="Top" Background="Black" Foreground="White"/>
-        <Button x:Name="btn5" Content="Button" HorizontalAlignment="Left" Height="100" Width="100" Margin="115,115,0,0" VerticalAlignment="Top" Background="Black" Foreground="White"/>
-        <Button x:Name="btn6" Content="Button" HorizontalAlignment="Left" Height="100" Width="100" Margin="220,115,0,0" VerticalAlignment="Top" Background="Black" Foreground="White"/>
-        <Button x:Name="btn7" Content="Button" HorizontalAlignment="Left" Height="100" Width="100" Margin="10,220,0,0" VerticalAlignment="Top" Background="Black" Foreground="White"/>
-        <Button x:Name="btn8" Content="Button" HorizontalAlignment="Left" Height="100" Width="100" Margin="115,220,0,0" VerticalAlignment="Top" Background="Black" Foreground="White"/>
-        <Button x:Name="btn9" Content="Button" HorizontalAlignment="Left" Height="100" Width="100" Margin="220,220,0,0" VerticalAlignment="Top" Background="Black" Foreground="White"/>
+        <Button x:Name="btn1" Content="Click" HorizontalAlignment="Left" Height="100" Width="100" Margin="10,10,0,0" VerticalAlignment="Top" Background="Black" Foreground="White" Click="btn1_Click" Visibility="Visible"/>
+        <Button x:Name="btn2" Content="Click" HorizontalAlignment="Left" Height="100" Width="100" Margin="115,10,0,0" VerticalAlignment="Top" Background="Black" Foreground="White"/>
+        <Button x:Name="btn3" Content="Click" HorizontalAlignment="Left" Height="100" Width="100" Margin="220,10,0,0" VerticalAlignment="Top" Background="Black" Foreground="White"/>
+        <Button x:Name="btn4" Content="Click" HorizontalAlignment="Left" Height="100" Width="100" Margin="10,115,0,0" VerticalAlignment="Top" Background="Black" Foreground="White"/>
+        <Button x:Name="btn5" Content="Click" HorizontalAlignment="Left" Height="100" Width="100" Margin="115,115,0,0" VerticalAlignment="Top" Background="Black" Foreground="White"/>
+        <Button x:Name="btn6" Content="Click" HorizontalAlignment="Left" Height="100" Width="100" Margin="220,115,0,0" VerticalAlignment="Top" Background="Black" Foreground="White"/>
+        <Button x:Name="btn7" Content="Click" HorizontalAlignment="Left" Height="100" Width="100" Margin="10,220,0,0" VerticalAlignment="Top" Background="Black" Foreground="White"/>
+        <Button x:Name="btn8" Content="Click" HorizontalAlignment="Left" Height="100" Width="100" Margin="115,220,0,0" VerticalAlignment="Top" Background="Black" Foreground="White"/>
+        <Button x:Name="btn9" Content="Click" HorizontalAlignment="Left" Height="100" Width="100" Margin="220,220,0,0" VerticalAlignment="Top" Background="Black" Foreground="White"/>
 
     </Grid>
 </Page>

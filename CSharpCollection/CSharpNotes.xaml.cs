@@ -42,7 +42,7 @@ namespace CSharpCollection
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             // Sets the selected item in the combo box as the "save" string
-            save = (string)comboBox1.Text;
+            save = comboBox1.Text;
         }
 
         private void btn3_Click(object sender, RoutedEventArgs e)
@@ -50,9 +50,10 @@ namespace CSharpCollection
             if (save == "Save 1")
             {
                 notes1 = textBox1.Text;
-                TextWriter tw = new StreamWriter(System.IO.Path.Combine(SavePath, "notes1.txt"));
-                tw.WriteLine(notes1);
-                tw.Close();
+                using (StreamWriter outputFile = new StreamWriter(System.IO.Path.Combine(SavePath, "notes1.txt")))
+                {
+                    outputFile.Write(notes1);
+                }
             }
             else if (save == "Save 2")
             {
@@ -88,11 +89,13 @@ namespace CSharpCollection
         {
             if (save == "Save 1")
             {
-                TextReader tr = new StreamReader(System.IO.Path.Combine(SavePath, "notes1.txt"));
-                string notes1string = tr.ReadLine();
-                notes1 = Convert.ToString(notes1string);
-                tr.Close();
-                textBox1.Text = notes1string;
+                StreamReader sr = new StreamReader(System.IO.Path.Combine(SavePath, "notes1.txt"));
+                notes2 = sr.ReadLine();
+                while (notes2 != null)
+                {
+                    textBox1.Text = notes2;
+                }
+                sr.Close();
             }
             else if (save == "Save 2")
             {
