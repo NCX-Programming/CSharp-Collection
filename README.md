@@ -1,6 +1,6 @@
-<p align="center">
+<p align="center" style="text-align: center !important;">
 <img src="https://ninjacheetah-gaming.site/WindowsIconCSharpCollection.png.png"/>
-<h1> CSharp-Collection</h1>
+<h1>CSharp-Collection</h1>
 <a href="https://github.com/NinjaCheetah/CSharp-Collection/workflows/.NET%20Core/badge.svg?branch=master" style="padding-left: 5px; padding-right: 5px;">
 	<img src="https://github.com/NinjaCheetah/CSharp-Collection/workflows/.NET%20Core/badge.svg?branch=master" height="20">
 </a>
