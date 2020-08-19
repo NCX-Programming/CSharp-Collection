@@ -16,7 +16,6 @@
 <a href="https://www.youtube.com/channel/UCW7-9GMKhze0RoharpssuAA" style="padding-left: 5px; padding-right: 5px;">
 		<img src="https://img.shields.io/badge/YouTube-Channel-red.svg" height="20">
   </a>
-</p>
 <a href="https://img.shields.io/maintenance/yes/2020?label=Maintained" style="padding-left: 5px; padding-right: 5px;">
 		<img src="https://img.shields.io/maintenance/yes/2020?label=Maintained" height="20">
   </a>
