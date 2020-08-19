@@ -10,7 +10,7 @@
 
     <Grid>
         <Label Content="C#Collection" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="White" FontSize="48"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,74,0,0" Text="The C# Collection is a collection of smaller programs written in C#, that are stuffed into this program" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontSize="20" Height="111" Width="418"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,74,0,0" Text="The C# Collection is a collection of smaller programs written in C#, that are stuffed into this program. Now in .NET Core!" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontSize="20" Height="111" Width="418"/>
         <Label Content="v2.7" HorizontalAlignment="Left" Margin="562,0,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18"/>
         <Button x:Name="btn1" Content="Color Buttons" HorizontalAlignment="Left" Margin="10,174,0,0" VerticalAlignment="Top" Height="22" Width="192" Foreground="White" Background="Black" Click="btn1_Click"/>
         <Button x:Name="btn2" Content="C#Calc" HorizontalAlignment="Left" Margin="10,201,0,0" VerticalAlignment="Top" Height="22" Width="192" Foreground="White" Background="Black" Click="btn2_Click"/>
