@@ -1,14 +1,15 @@
 <p align="center">
 <img src="https://ninjacheetah-gaming.site/WindowsIconCSharpCollection.png.png"/>
-<h1 CSharp-Collection/>
-</p>
+<h1 CSharp-Collection></h1>
 <a href="https://github.com/NinjaCheetah/CSharp-Collection/workflows/.NET%20Core/badge.svg?branch=master" style="padding-left: 5px; padding-right: 5px;">
 	<img src="https://github.com/NinjaCheetah/CSharp-Collection/workflows/.NET%20Core/badge.svg?branch=master" height="20">
 </a>
-![.NET Core](https://github.com/NinjaCheetah/CSharp-Collection/workflows/.NET%20Core/badge.svg?branch=master)
-![GitHub All Releases](https://img.shields.io/github/downloads/NinjaCheetah/CSharp-Collection/total?color=Aqua&label=Downloads)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/NinjaCheetah/CSharp-Collection?label=Latest%20Release)
-<p align="center">
+<a href="https://img.shields.io/github/downloads/NinjaCheetah/CSharp-Collection/total?color=Aqua&label=Downloads" style="padding-left: 5px; padding-right: 5px;">
+	<img src="https://img.shields.io/github/downloads/NinjaCheetah/CSharp-Collection/total?color=Aqua&label=Downloads" height="20">
+</a>
+<a href="https://img.shields.io/github/v/release/NinjaCheetah/CSharp-Collection?label=Latest%20Release" style="padding-left: 5px; padding-right: 5px;">
+	<img src="https://img.shields.io/github/v/release/NinjaCheetah/CSharp-Collection?label=Latest%20Release" height="20">
+</a>
 <a href="https://discord.com/invite/TbPXuFr" style="padding-left: 5px; padding-right: 5px;">
 		<img src="https://img.shields.io/badge/Discord-Server-purple.svg" height="20">
 </a>
