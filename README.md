@@ -17,7 +17,10 @@
 		<img src="https://img.shields.io/badge/YouTube-Channel-red.svg" height="20">
   </a>
 </p>
-![Maintenance](https://img.shields.io/maintenance/yes/2020?label=Maintained)
+<a href="https://img.shields.io/maintenance/yes/2020?label=Maintained" style="padding-left: 5px; padding-right: 5px;">
+		<img src="https://img.shields.io/maintenance/yes/2020?label=Maintained" height="20">
+  </a>
+</p>
 ## This is the follow up project for The Visual Basic Collection Vol1, this time rewritten in C#. It's a collection of smaller programs and games combined into a larger program.
 ## So, what's included?
 - Color Buttons
