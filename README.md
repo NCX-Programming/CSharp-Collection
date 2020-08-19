@@ -1,9 +1,11 @@
 <p align="center">
-![NCX-Core Logo](https://ninjacheetah-gaming.site/WindowsIconCSharpCollection.png.png)
+<img src="https://ninjacheetah-gaming.site/WindowsIconCSharpCollection.png.png"/>
 # CSharp-Collection
+</p>
 ![.NET Core](https://github.com/NinjaCheetah/CSharp-Collection/workflows/.NET%20Core/badge.svg?branch=master)
 ![GitHub All Releases](https://img.shields.io/github/downloads/NinjaCheetah/CSharp-Collection/total?color=Aqua&label=Downloads)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/NinjaCheetah/CSharp-Collection?label=Latest%20Release)
+<p align="center">
 <a href="https://discord.com/invite/TbPXuFr" style="padding-left: 5px; padding-right: 5px;">
 		<img src="https://img.shields.io/badge/Discord-Server-purple.svg" height="20">
 </a>
