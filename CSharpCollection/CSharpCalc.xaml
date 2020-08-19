@@ -1,0 +1,33 @@
+﻿<Page x:Class="CSharpCollection.CSharpCalc"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CSharpCollection"
+      mc:Ignorable="d" 
+      d:DesignHeight="370" d:DesignWidth="630"
+      Title="C#Calc" Background="Black">
+
+    <Grid>
+        <Rectangle HorizontalAlignment="Center" Height="52" Margin="0,10,0,0" Stroke="White" VerticalAlignment="Top" Width="610"/>
+        <TextBlock x:Name="label1" HorizontalAlignment="Center" Height="52" Margin="0,10,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="583" FontSize="36" Foreground="White" TextAlignment="Right"/>
+        <Button x:Name="btn1" Content="1" HorizontalAlignment="Left" Margin="10,67,0,0" VerticalAlignment="Top" Height="75" Width="75" Foreground="White" Background="Black" FontWeight="Normal" FontSize="24" Click="btn1_Click"/>
+        <Button x:Name="btn4" Content="4" HorizontalAlignment="Left" Margin="10,148,0,0" VerticalAlignment="Top" Height="74" Width="75" Foreground="White" Background="Black" FontSize="24" Click="btn4_Click"/>
+        <Button x:Name="btn7" Content="7" HorizontalAlignment="Left" Margin="10,227,0,0" VerticalAlignment="Top" Height="75" Width="75" Foreground="White" Background="Black" FontSize="24" Click="btn7_Click"/>
+        <Button x:Name="btn2" Content="2" HorizontalAlignment="Left" Margin="90,67,0,0" VerticalAlignment="Top" Height="75" Width="75" Foreground="White" Background="Black" FontSize="24" Click="btn2_Click"/>
+        <Button x:Name="btn5" Content="5" HorizontalAlignment="Left" Margin="90,148,0,0" VerticalAlignment="Top" Height="74" Width="75" Foreground="White" Background="Black" FontSize="24" Click="btn5_Click"/>
+        <Button x:Name="btn8" Content="8" HorizontalAlignment="Left" Margin="90,228,0,0" VerticalAlignment="Top" Height="74" Width="75" Foreground="White" Background="Black" FontSize="24" Click="btn8_Click"/>
+        <Button x:Name="btn3" Content="3" HorizontalAlignment="Left" Margin="170,67,0,0" VerticalAlignment="Top" Height="75" Width="75" Foreground="White" Background="Black" FontSize="24" Click="btn3_Click"/>
+        <Button x:Name="btn6" Content="6" HorizontalAlignment="Left" Margin="170,148,0,0" VerticalAlignment="Top" Height="74" Width="75" Foreground="White" Background="Black" FontSize="24" Click="btn6_Click"/>
+        <Button x:Name="btn9" Content="9" HorizontalAlignment="Left" Margin="170,227,0,0" VerticalAlignment="Top" Height="75" Width="75" Foreground="White" Background="Black" FontSize="24" Click="btn9_Click"/>
+        <Button x:Name="btn10" Content="0" HorizontalAlignment="Left" Margin="250,227,0,0" VerticalAlignment="Top" Height="75" Width="75" Foreground="White" Background="Black" FontSize="24" Click="btn10_Click"/>
+        <Button x:Name="btn11" Content="=" HorizontalAlignment="Left" Margin="250,67,0,0" VerticalAlignment="Top" Height="154" Width="76" Foreground="White" Background="Black" FontSize="36" Click="btn11_Click"/>
+        <Button x:Name="btn12" Content="+" HorizontalAlignment="Left" Margin="392,67,0,0" VerticalAlignment="Top" Height="75" Width="157" Foreground="White" Background="Black" FontSize="36" Click="btn12_Click"/>
+        <Button x:Name="btn13" Content="-" HorizontalAlignment="Left" Margin="392,148,0,0" VerticalAlignment="Top" Height="74" Width="157" Foreground="White" Background="Black" FontSize="36" Click="btn13_Click"/>
+        <Button x:Name="btn14" Content="X" HorizontalAlignment="Left" Margin="392,227,0,0" VerticalAlignment="Top" Height="75" Width="76" Foreground="White" Background="Black" FontSize="36" Click="btn14_Click"/>
+        <Button x:Name="btn15" Content="/" HorizontalAlignment="Left" Margin="473,227,0,0" VerticalAlignment="Top" Height="75" Width="76" Foreground="White" Background="Black" FontSize="36" Click="btn15_Click"/>
+        <Button Content="Menu" HorizontalAlignment="Left" Height="37" Margin="554,67,0,0" VerticalAlignment="Top" Width="52" Foreground="White" Background="Black" Click="Button_Click"/>
+        <Button Content="Clear" HorizontalAlignment="Left" Height="59" Margin="554,109,0,0" VerticalAlignment="Top" Width="52" Foreground="White" Background="Black" Click="Button45345_Click"/>
+
+    </Grid>
+</Page>

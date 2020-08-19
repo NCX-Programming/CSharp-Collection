@@ -1,0 +1,21 @@
+﻿<Page x:Class="CSharpCollection.About"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:CSharpCollection"
+      mc:Ignorable="d" 
+      d:DesignHeight="370" d:DesignWidth="630"
+      Title="MainMenu" Background="Black">
+
+    <Grid>
+        <Label Content="About C#Collection" Margin="152,0,118,0" VerticalAlignment="Top" Foreground="White" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,58,0,0" Text="v2.7" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="630" TextAlignment="Center" Foreground="White" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,87,0,0" Text="©2020 NinjaCheetah" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="630" TextAlignment="Center" Foreground="White" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,116,0,0" Text="Powered by the .NET Core version 3.1" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="630" TextAlignment="Center" Foreground="White" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,145,0,0" Text="Written in Microsoft Visual Studio 2019" TextWrapping="Wrap" VerticalAlignment="Top" Height="29" Width="630" TextAlignment="Center" Foreground="White" FontSize="20"/>
+        <Button Content="GitHub" HorizontalAlignment="Center" VerticalAlignment="Top" Width="150" Height="22" Background="Black" Foreground="White" Click="Button_Click_1" Margin="0,174,0,0"/>
+        <Button Content="Back" HorizontalAlignment="Center" Margin="0,202,0,0" VerticalAlignment="Top" Width="150" Height="22" Foreground="White" Background="Black" Click="Button_Click"/>
+
+    </Grid>
+</Page>
