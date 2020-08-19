@@ -1,7 +1,10 @@
 <p align="center">
 <img src="https://ninjacheetah-gaming.site/WindowsIconCSharpCollection.png.png"/>
-# CSharp-Collection
+<h1 CSharp-Collection/>
 </p>
+<a href="https://github.com/NinjaCheetah/CSharp-Collection/workflows/.NET%20Core/badge.svg?branch=master" style="padding-left: 5px; padding-right: 5px;">
+	<img src="https://github.com/NinjaCheetah/CSharp-Collection/workflows/.NET%20Core/badge.svg?branch=master" height="20">
+</a>
 ![.NET Core](https://github.com/NinjaCheetah/CSharp-Collection/workflows/.NET%20Core/badge.svg?branch=master)
 ![GitHub All Releases](https://img.shields.io/github/downloads/NinjaCheetah/CSharp-Collection/total?color=Aqua&label=Downloads)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/NinjaCheetah/CSharp-Collection?label=Latest%20Release)
