@@ -42,5 +42,4 @@ Info also available on my website at: https://ninjacheetah-gaming.site/techproje
 - The target .NET Core version is currently 3.1
 - Windows 10 x64 (64-Bit)
 # Credits:
-# Credits
 [@IanSkinner1982](https://github.com/IanSkinner1982/) For writing my README
