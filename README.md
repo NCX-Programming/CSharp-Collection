@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://ninjacheetah-gaming.site/WindowsIconCSharpCollection.png.png"/>
+<img src="https://ninjacheetah.github.io/WindowsIconCSharpCollection.png.png"/>
 <h1>CSharp-Collection</h1>
 
  For more info visit:	
